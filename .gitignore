@@ -1,0 +1,46 @@
+# --- Java & Maven ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# --- Spring Boot ---
+.mvn/
+mvnw
+mvnw.cmd
+.mvn/wrapper/maven-wrapper.jar
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# --- VS Code ---
+.vscode/
+bin/
+.history/
+
+# --- Eclipse / STS ---
+.metadata/
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+.apt_generated/
+.factorypath/
+
+# --- OS / Sistema ---
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# --- Archivos de entorno (Seguridad) ---
+.env
+.env.local
